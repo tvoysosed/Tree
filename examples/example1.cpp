@@ -18,7 +18,7 @@ void menu(){
 
 int main(int argc, char* argv[]) {
     setlocale(LC_ALL, "Russian");
-    BSTree tree;
+    Tree *tree = new Tree;
     for (int i=1; i<argc; i++) { 
         tree.add(atoi(argv[i]));
     };
