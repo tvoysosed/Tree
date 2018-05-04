@@ -16,5 +16,6 @@ namespace BSTree {
         void add(Node *&root, int data);
         void insert(int data);
         void delete_tree(Node *&data); 
+        ~Tree();
   }
   
