@@ -42,7 +42,6 @@ class BSTree{
             }
         }
         ~BSTree() {
-            cout<<"был вызван деструктор"<<endl;
             delete_tree(root);
         }
         void show(Node*node, int stage){
